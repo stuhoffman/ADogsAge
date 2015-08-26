@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201B188E17C56FE400084375 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201B188D17C56FE400084375 /* UIKit.framework */; };
+		201B189017C56FE400084375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201B188F17C56FE400084375 /* Foundation.framework */; };
+		201B189217C56FE400084375 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201B189117C56FE400084375 /* CoreGraphics.framework */; };
+		201B189817C56FE400084375 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 201B189617C56FE400084375 /* InfoPlist.strings */; };
+		201B189A17C56FE400084375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B189917C56FE400084375 /* main.m */; };
+		201B189E17C56FE400084375 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B189D17C56FE400084375 /* AppDelegate.m */; };
+		201B18A017C56FE400084375 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 201B189F17C56FE400084375 /* Default.png */; };
+		201B18A217C56FE400084375 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 201B18A117C56FE400084375 /* Default@2x.png */; };
+		201B18A417C56FE400084375 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 201B18A317C56FE400084375 /* Default-568h@2x.png */; };
+		201B18A717C56FE400084375 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201B18A517C56FE400084375 /* MainStoryboard_iPhone.storyboard */; };
+		201B18AA17C56FE400084375 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201B18A817C56FE400084375 /* MainStoryboard_iPad.storyboard */; };
+		201B18AD17C56FE400084375 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B18AC17C56FE400084375 /* MasterViewController.m */; };
+		201B18B017C56FE400084375 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B18AF17C56FE400084375 /* DetailViewController.m */; };
+		201B18B817C5706700084375 /* Animals.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B18B717C5706700084375 /* Animals.m */; };
+		201B18BE17C574D800084375 /* FirstSelectViewControllerIphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B18BD17C574D800084375 /* FirstSelectViewControllerIphone.m */; };
+		201B18C017C5798700084375 /* species.plist in Resources */ = {isa = PBXBuildFile; fileRef = 201B18BF17C5798700084375 /* species.plist */; };
+		201B18C317C579A600084375 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 201B18C117C579A600084375 /* cat.png */; };
+		201B18C417C579A600084375 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 201B18C217C579A600084375 /* dog.png */; };
+		201B18CC17C579B600084375 /* human.png in Resources */ = {isa = PBXBuildFile; fileRef = 201B18C517C579B600084375 /* human.png */; };
+		201B18CD17C579B600084375 /* beach.png in Resources */ = {isa = PBXBuildFile; fileRef = 201B18C717C579B600084375 /* beach.png */; };
+		201B18CE17C579B600084375 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 201B18C817C579B600084375 /* flag.png */; };
+		201B18CF17C579B600084375 /* olives.png in Resources */ = {isa = PBXBuildFile; fileRef = 201B18C917C579B600084375 /* olives.png */; };
+		201B18D017C579B600084375 /* overlook.png in Resources */ = {isa = PBXBuildFile; fileRef = 201B18CA17C579B600084375 /* overlook.png */; };
+		201B18D117C579B600084375 /* winery.png in Resources */ = {isa = PBXBuildFile; fileRef = 201B18CB17C579B600084375 /* winery.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		201B188A17C56FE400084375 /* ADogsAge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADogsAge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		201B188D17C56FE400084375 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		201B188F17C56FE400084375 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		201B189117C56FE400084375 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		201B189517C56FE400084375 /* ADogsAge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ADogsAge-Info.plist"; sourceTree = "<group>"; };
+		201B189717C56FE400084375 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		201B189917C56FE400084375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		201B189B17C56FE400084375 /* ADogsAge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADogsAge-Prefix.pch"; sourceTree = "<group>"; };
+		201B189C17C56FE400084375 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		201B189D17C56FE400084375 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		201B189F17C56FE400084375 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		201B18A117C56FE400084375 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		201B18A317C56FE400084375 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		201B18A617C56FE400084375 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		201B18A917C56FE400084375 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		201B18AB17C56FE400084375 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		201B18AC17C56FE400084375 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		201B18AE17C56FE400084375 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		201B18AF17C56FE400084375 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		201B18B617C5706700084375 /* Animals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animals.h; sourceTree = "<group>"; };
+		201B18B717C5706700084375 /* Animals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animals.m; sourceTree = "<group>"; };
+		201B18BC17C574D800084375 /* FirstSelectViewControllerIphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstSelectViewControllerIphone.h; path = ../FirstSelectViewControllerIphone.h; sourceTree = "<group>"; };
+		201B18BD17C574D800084375 /* FirstSelectViewControllerIphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstSelectViewControllerIphone.m; path = ../FirstSelectViewControllerIphone.m; sourceTree = "<group>"; };
+		201B18BF17C5798700084375 /* species.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = species.plist; sourceTree = "<group>"; };
+		201B18C117C579A600084375 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat.png; path = ../cat.png; sourceTree = "<group>"; };
+		201B18C217C579A600084375 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog.png; path = ../dog.png; sourceTree = "<group>"; };
+		201B18C517C579B600084375 /* human.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = human.png; path = ../human.png; sourceTree = "<group>"; };
+		201B18C717C579B600084375 /* beach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beach.png; sourceTree = "<group>"; };
+		201B18C817C579B600084375 /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
+		201B18C917C579B600084375 /* olives.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = olives.png; sourceTree = "<group>"; };
+		201B18CA17C579B600084375 /* overlook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlook.png; sourceTree = "<group>"; };
+		201B18CB17C579B600084375 /* winery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winery.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		201B188717C56FE400084375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201B188E17C56FE400084375 /* UIKit.framework in Frameworks */,
+				201B189017C56FE400084375 /* Foundation.framework in Frameworks */,
+				201B189217C56FE400084375 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201B188117C56FE400084375 = {
+			isa = PBXGroup;
+			children = (
+				201B189317C56FE400084375 /* ADogsAge */,
+				201B188C17C56FE400084375 /* Frameworks */,
+				201B188B17C56FE400084375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		201B188B17C56FE400084375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				201B188A17C56FE400084375 /* ADogsAge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		201B188C17C56FE400084375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				201B188D17C56FE400084375 /* UIKit.framework */,
+				201B188F17C56FE400084375 /* Foundation.framework */,
+				201B189117C56FE400084375 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		201B189317C56FE400084375 /* ADogsAge */ = {
+			isa = PBXGroup;
+			children = (
+				201B18BC17C574D800084375 /* FirstSelectViewControllerIphone.h */,
+				201B18BD17C574D800084375 /* FirstSelectViewControllerIphone.m */,
+				201B189C17C56FE400084375 /* AppDelegate.h */,
+				201B189D17C56FE400084375 /* AppDelegate.m */,
+				201B18A517C56FE400084375 /* MainStoryboard_iPhone.storyboard */,
+				201B18B617C5706700084375 /* Animals.h */,
+				201B18B717C5706700084375 /* Animals.m */,
+				201B18A817C56FE400084375 /* MainStoryboard_iPad.storyboard */,
+				201B18AB17C56FE400084375 /* MasterViewController.h */,
+				201B18AC17C56FE400084375 /* MasterViewController.m */,
+				201B18AE17C56FE400084375 /* DetailViewController.h */,
+				201B18AF17C56FE400084375 /* DetailViewController.m */,
+				201B189417C56FE400084375 /* Supporting Files */,
+			);
+			path = ADogsAge;
+			sourceTree = "<group>";
+		};
+		201B189417C56FE400084375 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				201B18BF17C5798700084375 /* species.plist */,
+				201B18C617C579B600084375 /* photos */,
+				201B189517C56FE400084375 /* ADogsAge-Info.plist */,
+				201B189617C56FE400084375 /* InfoPlist.strings */,
+				201B189917C56FE400084375 /* main.m */,
+				201B189B17C56FE400084375 /* ADogsAge-Prefix.pch */,
+				201B189F17C56FE400084375 /* Default.png */,
+				201B18A117C56FE400084375 /* Default@2x.png */,
+				201B18A317C56FE400084375 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		201B18C617C579B600084375 /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				201B18C217C579A600084375 /* dog.png */,
+				201B18C117C579A600084375 /* cat.png */,
+				201B18C517C579B600084375 /* human.png */,
+				201B18C717C579B600084375 /* beach.png */,
+				201B18C817C579B600084375 /* flag.png */,
+				201B18C917C579B600084375 /* olives.png */,
+				201B18CA17C579B600084375 /* overlook.png */,
+				201B18CB17C579B600084375 /* winery.png */,
+			);
+			path = photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		201B188917C56FE400084375 /* ADogsAge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201B18B317C56FE400084375 /* Build configuration list for PBXNativeTarget "ADogsAge" */;
+			buildPhases = (
+				201B188617C56FE400084375 /* Sources */,
+				201B188717C56FE400084375 /* Frameworks */,
+				201B188817C56FE400084375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADogsAge;
+			productName = ADogsAge;
+			productReference = 201B188A17C56FE400084375 /* ADogsAge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		201B188217C56FE400084375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Stuart Hoffman";
+			};
+			buildConfigurationList = 201B188517C56FE400084375 /* Build configuration list for PBXProject "ADogsAge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 201B188117C56FE400084375;
+			productRefGroup = 201B188B17C56FE400084375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				201B188917C56FE400084375 /* ADogsAge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		201B188817C56FE400084375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201B189817C56FE400084375 /* InfoPlist.strings in Resources */,
+				201B18A017C56FE400084375 /* Default.png in Resources */,
+				201B18A217C56FE400084375 /* Default@2x.png in Resources */,
+				201B18A417C56FE400084375 /* Default-568h@2x.png in Resources */,
+				201B18A717C56FE400084375 /* MainStoryboard_iPhone.storyboard in Resources */,
+				201B18AA17C56FE400084375 /* MainStoryboard_iPad.storyboard in Resources */,
+				201B18C017C5798700084375 /* species.plist in Resources */,
+				201B18C317C579A600084375 /* cat.png in Resources */,
+				201B18C417C579A600084375 /* dog.png in Resources */,
+				201B18CC17C579B600084375 /* human.png in Resources */,
+				201B18CD17C579B600084375 /* beach.png in Resources */,
+				201B18CE17C579B600084375 /* flag.png in Resources */,
+				201B18CF17C579B600084375 /* olives.png in Resources */,
+				201B18D017C579B600084375 /* overlook.png in Resources */,
+				201B18D117C579B600084375 /* winery.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		201B188617C56FE400084375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201B189A17C56FE400084375 /* main.m in Sources */,
+				201B189E17C56FE400084375 /* AppDelegate.m in Sources */,
+				201B18AD17C56FE400084375 /* MasterViewController.m in Sources */,
+				201B18B017C56FE400084375 /* DetailViewController.m in Sources */,
+				201B18B817C5706700084375 /* Animals.m in Sources */,
+				201B18BE17C574D800084375 /* FirstSelectViewControllerIphone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		201B189617C56FE400084375 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201B189717C56FE400084375 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		201B18A517C56FE400084375 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201B18A617C56FE400084375 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		201B18A817C56FE400084375 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201B18A917C56FE400084375 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		201B18B117C56FE400084375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		201B18B217C56FE400084375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		201B18B417C56FE400084375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADogsAge/ADogsAge-Prefix.pch";
+				INFOPLIST_FILE = "ADogsAge/ADogsAge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		201B18B517C56FE400084375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADogsAge/ADogsAge-Prefix.pch";
+				INFOPLIST_FILE = "ADogsAge/ADogsAge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		201B188517C56FE400084375 /* Build configuration list for PBXProject "ADogsAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201B18B117C56FE400084375 /* Debug */,
+				201B18B217C56FE400084375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201B18B317C56FE400084375 /* Build configuration list for PBXNativeTarget "ADogsAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201B18B417C56FE400084375 /* Debug */,
+				201B18B517C56FE400084375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 201B188217C56FE400084375 /* Project object */;
+}
